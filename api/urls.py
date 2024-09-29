@@ -1,7 +1,12 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
+from rest_framework.routers import DefaultRouter
+
+# Create a router instance
+api_router = DefaultRouter()
+api_router.register(r'chatbot', views.ChatbotViewSet, basename='chatbot')
 
 urlpatterns = [
     path('register/', views.CreateUserView.as_view(), name='register'),
@@ -10,8 +15,13 @@ urlpatterns = [
 
     path('user/', views.UserDetailView.as_view(), name='user_detail'),
     
-    path('create-chat/<int:receiver_id>/', views.create_chat_room_and_send_message, name='create-chat'),
-    path('my-chat-rooms/', views.get_chat_rooms_for_logged_in_user, name='my-chat-rooms'),
-    path('chat_rooms/<int:other_user_id>/<int:current_user_id>/', views.ChatRoomView.as_view(), name='chat-room-list'),
-   
+    path('message/<int:sender_id>/<int:receiver_id>/', views.MessageUserView.as_view(), name='message-user'),
+    #path('chat-room/<int:sender_id>/<int:receiver_id>/', views.ChatRoomMessagesView.as_view(), name='message-user'),
+    path('chat-room/<int:current_user_id>/<int:user_id>/', views.get_chat_room_messages, name='chat-room-messages'),
+    path('superusers/', views.SuperuserListView.as_view(), name='superuser-list'),
+    path('users/', views.UserListView.as_view(), name='superuser-list'),
+    path('chat/rooms/', views.UserChatRoomsView.as_view(), name='user-chat-rooms'),
+    
+    # Include the chatbot router
+    path('', include(api_router.urls)),
 ]
