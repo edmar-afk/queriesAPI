@@ -21,7 +21,6 @@ from difflib import get_close_matches
 from django.conf import settings
 import os
 BASE_DIR = settings.BASE_DIR
-from sentence_transformers import SentenceTransformer, util
 
 class CreateUserView(generics.CreateAPIView):
     queryset = User.objects.all()
