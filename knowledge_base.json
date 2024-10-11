@@ -1,77 +1,242 @@
-{
-  "questions": [
-    {
-      "question": "What is the color of the sky?",
-      "answer": "Blue"
-    },
-    {
-      "question": "how are you",
-      "answer": "I'm doing great!"
-    },
-    {
-      "question": "How are you doing mate?",
-      "answer": "I'm doing good"
-    },
-    {
-      "question": "What's up?^",
-      "answer": "Not much, what about you?"
-    },
-    {
-      "question": "Where can I subscribe?",
-      "answer": "Idk, subscribe to what?"
-    },
-    {
-      "question": "Say something funny",
-      "answer": "Your love life"
-    },
-    {
-      "question": "tell me more",
-      "answer": "I don't want to"
-    },
-    {
-      "question": "ok",
-      "answer": "ok?"
-    },
-    {
-      "question": "hello",
-      "answer": "Hello, how can I help you?"
-    },
-    {
-      "question": "I need help of something",
-      "answer": "What something? Please be more specific so I can assist you."
-    },
-    {
-      "question": "can you help me?",
-      "answer": "Sure, just tell me what kind of help"
-    },
-    {
-      "question": "Good morning",
-      "answer": "Hello, Good morning"
-    },
-    {
-      "question": "hello good afternoon mate",
-      "answer": "Good afternoon"
-    },
-    
-    {
-      "question": "Good day, mate",
-      "answer": "Good day to you too! How can I assist you today?"
-    },
-    {
-      "question": "bye",
-      "answer": "Goodbye! If you have any more questions in the future, feel free to ask. Have a great day!"
-    },
-    {
-      "question": "Cool",
-      "answer": "I'm Cool"
-    },
-    {
-      "question": "hi",
-      "answer": "hello"
-    },
-    {
-      "question": "secret",
-      "answer": "imo mama secret"
-    }
-  ]
+{	"questions": [	{ "question": "What is the color of the sky?", "answer": "Blue" },
+	{ "question": "how are you", "answer": "I'm doing great!" },
+	{ "question": "How are you doing mate?", "answer": "I'm doing good" },
+	{
+		"question": "What's up?^",
+		"answer": "Not much, what about you?"
+	},
+	{
+		"question": "Where can I subscribe?",
+		"answer": "Idk, subscribe to what?"
+	},
+	{
+		"question": "Say something funny",
+		"answer": "Your love life"
+	},
+	{
+		"question": "tell me more",
+		"answer": "I don't want to"
+	},
+	{
+		"question": "ok",
+		"answer": "ok?"
+	},
+	{
+		"question": "hello",
+		"answer": "Hello, how can I help you?"
+	},
+	{
+		"question": "I need help of something",
+		"answer": "What something? Please be more specific so I can assist you."
+	},
+	{
+		"question": "can you help me?",
+		"answer": "Sure, just tell me what kind of help"
+	},
+	{
+		"question": "Good morning",
+		"answer": "Hello, Good morning"
+	},
+	{
+		"question": "hello good afternoon mate",
+		"answer": "Good afternoon"
+	},
+
+	{
+		"question": "Good day, mate",
+		"answer": "Good day to you too! How can I assist you today?"
+	},
+	{
+		"question": "bye",
+		"answer": "Goodbye! If you have any more questions in the future, feel free to ask. Have a great day!"
+	},
+	{
+		"question": "Cool",
+		"answer": "I'm Cool"
+	},
+	{
+		"question": "hi",
+		"answer": "hello"
+	},
+	{
+		"question": "secret",
+		"answer": "imo mama secret"
+	},
+	{
+		"question": "Is there any penalties if someone borrow books and return it for a very long time? If yes, what penalty is this?",
+		"answer": "Yes, we have penalty of 10 pesos per day."
+	},
+	{
+		"question": "Can we borrow those capstone books?",
+		"answer": "No"
+	},
+	{
+		"question": "How long we can borrow the books?",
+		"answer": "1 day only"
+	},
+	{
+		"question": "Do you give old books to the students? If yes, how can we ask for?",
+		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+	},
+	{
+		"question": "What are the requirements to borrow books? And how can we get those requirements?",
+		"answer": "Please bring your library ID. This is s requirement for first year students, it is mandatory to have a library ID."
+	},
+	{
+		"question": "What if my library yellow card and ID is lost, what should I do?",
+		"answer": "You need to get a new library ID/Yellow card, but there is fee of 30 pesos."
+	},
+	{
+		"question": "Do you give old books to the students? If yes, how can we ask for?",
+		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+	},
+	{
+		"question": "Do you give old books to the students? If yes, how can we ask for?",
+		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+	},
+	{
+		"question": "Do you give old books to the students? If yes, how can we ask for?",
+		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+	},
+	{
+		"question": "Do you give old books to the students? If yes, how can we ask for?",
+		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+	},
+	{
+		"question": "What are the library rules?",
+		"answer": "Respect the rights of others. Proper conduct is expected of all library users. Courtesy, politeness, and respect should be observed at all times. Loud conversations, smoking, eating, using cellphones not in silent mode, and littering are improper. Also, respect the materials. Treat library materials with care and avoid writing on books, walls, tables, chairs, and other furniture or equipment inside and outside of the library.."
+	},
+	{
+		"question": "What if I lost a library book?",
+		"answer": "The lost book should be replaced by the same or a later edition of the original title, and a corresponding fine must be paid."
+	},
+	{
+		"question": "Can I print a copy of the book from the library?",
+		"answer": "Yes, but you are only given 30 minutes for printing or photocopying."
+	},
+	{
+		"question": "Does the library offer free printing?",
+		"answer": "No."
+	},
+	{
+		"question": "What are the graduation requirements for my program, BSIT?",
+		"answer": "You must pass all required subjects as prescribed in the curriculum, submit all necessary documents like Form 138, Form 137, PSA photocopy, original certificate of good moral character, and clear all required allegations as stated in the graduation clearance."
+	},
+	{
+		"question": "Do we have to go to the main campus to get our school records?",
+		"answer": "Only the Diploma needs the President's signature. Other records like the TOR and other certifications will be released at the JHCSC-CMSE Campus."
+	},
+	{
+		"question": "If one of my school records is missing, who’s responsible for it?",
+		"answer": "The person in charge of safekeeping the said documents is responsible."
+	},
+	{
+		"question": "What are the requirements for getting a TOR? Is there any payment? If yes, how much?",
+		"answer": "Clearance is required for obtaining the TOR, and a fee of 50.00 per page must be paid upon request."
+	},
+	{
+		"question": "What is the process for shifting to another program?",
+		"answer": "You must complete the clearance process."
+	},
+	{
+		"question": "How do I drop and add a subject?",
+		"answer": "You need to fully accomplish the adding or dropping form with complete signatures and submit it to the Office of the Registrar on the date specified in the calendar of activities."
+	},
+	{
+		"question": "How many days does it take to get my TOR after requesting?",
+		"answer": "It takes 3-5 days after submitting the clearance and request for credentials slip."
+	},
+	{
+		"question": "Is it okay to pay my miscellaneous fee when I graduate?",
+		"answer": "No miscellaneous fee, no tuition fee."
+	},
+	{
+		"question": "I have a twin sister and we both enrolled in JHCSC CMSE Campus, is it possible that we pay the miscellaneous fee as one?",
+		"answer": ""
+	},
+	{
+		"question": "Is there any payment for getting a copy of my COE?",
+		"answer": "Yes, 20.00 per request."
+	},
+	{
+		"question": "Can we get a copy of the school calendar? If yes, how?",
+		"answer": "The calendar of activities in JHCSC is posted on the bulletin board. Every student is free to read and get a copy by taking a picture using their cellphone."
+	},
+	{
+		"question": "How can I request a LOA (leave of absence)?",
+		"answer": "Fill up a LOA form and attach supporting documents required for the LOA application."
+	},
+	{
+		"question": "I entered the wrong information in the online enrollment, how can I correct it?",
+		"answer": "Visit the office for assistance with your concerns."
+	},
+	{
+		"question": "Can I request a copy of my credentials?",
+		"answer": "Please specify the document and the purpose because some documents cannot be given back to the student."
+	},
+	{
+		"question": "Does free dental check-up happen annually?",
+		"answer": "Yes."
+	},
+	{
+		"question": "Is there any available free sanitary pads for girls who had an emergency period?",
+		"answer": "Yes, we have free sanitary pads."
+	},
+	{
+		"question": "Male condoms are given freely, how about oral contraceptive pills?",
+		"answer": "Oral contraceptive pills are broadly prescribed."
+	},
+	{
+		"question": "What medical services are available?",
+		"answer": "DILI PA MA ANSWER SA NURSE SINCE WALA PA SYA NAGTUIG SA SCHOOL."
+	},
+	{
+		"question": "If there’s a day that the school nurse is on leave, who should we call in case of a health emergency?",
+		"answer": "The admins in the school."
+	},
+	{
+		"question": "Are the medicines in the clinic free?",
+		"answer": "Yes, they are free."
+	},
+	{
+		"question": "How can I schedule an appointment in the school clinic?",
+		"answer": "You don’t need an appointment for the school clinic. It is open on school days from Monday to Friday (8am-5pm) for all students to address health concerns and illnesses."
+	},
+	{
+		"question": "Does the clinic offer health insurance?",
+		"answer": "The clinic doesn’t offer health insurance."
+	},
+	{
+		"question": "Are clinic services free?",
+		"answer": "Yes, they are free."
+	},
+	{
+		"question": "Is there a free medical check-up? If yes, when and how can I set an appointment?",
+		"answer": "DILI PA MA ANSWER SA NURSE SINCE WALA PA SYA NAGTUIG SA SCHOOL."
+	},
+	{
+		"question": "Is there any penalties if someone borrows books and returns them after a very long time? If yes, what is the penalty?",
+		"answer": "Yes, there is a penalty of 10 pesos per day."
+	},
+	{
+		"question": "Can we borrow those capstone books?",
+		"answer": "No."
+	},
+	{
+		"question": "How long can we borrow the books?",
+		"answer": "1 day only."
+	},
+	{
+		"question": "Do you give old books to the students? If yes, how can we ask for them?",
+		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL."
+	},
+	{
+		"question": "What are the requirements to borrow books? And how can we get those requirements?",
+		"answer": "Please bring your library ID. This is a requirement for first-year students, and it is mandatory to have a library ID."
+	},
+	{
+		"question": "What if my library yellow card and ID are lost, what should I do?",
+		"answer": "You need to get a new library ID/Yellow card, but there is a fee of 30 pesos."
+	}
+]
 }

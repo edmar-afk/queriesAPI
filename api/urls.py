@@ -21,7 +21,7 @@ urlpatterns = [
     path('superusers/', views.SuperuserListView.as_view(), name='superuser-list'),
     path('users/', views.UserListView.as_view(), name='superuser-list'),
     path('chat/rooms/', views.UserChatRoomsView.as_view(), name='user-chat-rooms'),
-    
+    path('user/<int:id>/', views.UserInfoView.as_view(), name='user-detail'),
     # Include the chatbot router
     path('', include(api_router.urls)),
 ]

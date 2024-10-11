@@ -21,7 +21,7 @@ from difflib import get_close_matches
 from django.conf import settings
 import os
 BASE_DIR = settings.BASE_DIR
-
+from sentence_transformers import SentenceTransformer, util
 
 class CreateUserView(generics.CreateAPIView):
     queryset = User.objects.all()
@@ -57,6 +57,7 @@ class SuperuserListView(ListAPIView):
 class UserListView(ListAPIView):
     queryset = User.objects.filter(is_superuser=False).exclude(username='admin')  # Exclude 'admin' user
     serializer_class = UserSerializer    
+
 
 
 
@@ -170,6 +171,10 @@ class UserChatRoomsView(APIView):
     
     
 
+class UserInfoView(generics.RetrieveAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    lookup_field = 'id'
 
 
 
@@ -183,8 +188,9 @@ class UserChatRoomsView(APIView):
 
 
 
+ # Load the SentenceTransformer model
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
-   
 # Load the knowledge base from a JSON file
 def load_knowledge_base(file_path: str):
     full_path = os.path.join(BASE_DIR, file_path)
@@ -198,11 +204,25 @@ def save_knowledge_base(file_path: str, data: dict):
     with open(full_path, 'w') as file:
         json.dump(data, file, indent=2)
 
-
+# Find the best match using semantic similarity
 def find_best_match(user_question: str, questions: list[str]) -> str | None:
-    matches = get_close_matches(user_question, questions, n=1, cutoff=0.6)
-    return matches[0] if matches else None
+    # Encode user question and knowledge base questions
+    user_question_embedding = model.encode(user_question)
+    knowledge_base_embeddings = model.encode(questions)
 
+    # Compute cosine similarity
+    cosine_scores = util.cos_sim(user_question_embedding, knowledge_base_embeddings)
+
+    # Get the best match and its score
+    best_score = cosine_scores.max()
+    best_idx = cosine_scores.argmax()
+
+    # Set a threshold for accepting the match (adjust as needed)
+    if best_score > 0.7:  # You can tweak this threshold
+        return questions[best_idx]
+    return None
+
+# Get answer for the matched question
 def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
     for q in knowledge_base["questions"]:
         if q["question"] == question:
@@ -217,11 +237,14 @@ class ChatbotViewSet(viewsets.ViewSet):
         if serializer.is_valid():
             user_question = serializer.validated_data['question']
             knowledge_base = load_knowledge_base('knowledge_base.json')
-            best_match = find_best_match(user_question, [q["question"] for q in knowledge_base["questions"]])
+            questions = [q["question"] for q in knowledge_base["questions"]]
+            
+            best_match = find_best_match(user_question, questions)
 
             if best_match:
                 answer = get_answer_for_question(best_match, knowledge_base)
                 return Response({'answer': answer}, status=status.HTTP_200_OK)
             else:
-                return Response({'answer': "I'm not entirely sure about that, so it might be best to check with the person in charge to get a more accurate answer. They should be able to provide the correct information."}, status=status.HTTP_200_OK)
+                # Fallback for unmatched questions
+                return Response({'answer': "I'm not entirely sure about that. Let me consult the knowledge base and get back to you."}, status=status.HTTP_200_OK)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
