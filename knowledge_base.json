@@ -1,242 +1,428 @@
-{	"questions": [	{ "question": "What is the color of the sky?", "answer": "Blue" },
-	{ "question": "how are you", "answer": "I'm doing great!" },
-	{ "question": "How are you doing mate?", "answer": "I'm doing good" },
-	{
-		"question": "What's up?^",
-		"answer": "Not much, what about you?"
-	},
-	{
-		"question": "Where can I subscribe?",
-		"answer": "Idk, subscribe to what?"
-	},
-	{
-		"question": "Say something funny",
-		"answer": "Your love life"
-	},
-	{
-		"question": "tell me more",
-		"answer": "I don't want to"
-	},
-	{
-		"question": "ok",
-		"answer": "ok?"
-	},
-	{
-		"question": "hello",
-		"answer": "Hello, how can I help you?"
-	},
-	{
-		"question": "I need help of something",
-		"answer": "What something? Please be more specific so I can assist you."
-	},
-	{
-		"question": "can you help me?",
-		"answer": "Sure, just tell me what kind of help"
-	},
-	{
-		"question": "Good morning",
-		"answer": "Hello, Good morning"
-	},
-	{
-		"question": "hello good afternoon mate",
-		"answer": "Good afternoon"
-	},
+{	"questions": [		{ "question": "What is the color of the sky?", "answer": "Blue" },		{ "question": "how are you", "answer": "I'm doing great!" },		{ "question": "How are you doing mate?", "answer": "I'm doing good" },		{ "question": "What's up?^", "answer": "Not much, what about you?" },		{ "question": "Where can I subscribe?", "answer": "Idk, subscribe to what?" },		{ "question": "Say something funny", "answer": "Your love life" },		{ "question": "tell me more", "answer": "I don't want to" },		{ "question": "ok", "answer": "ok?" },		{ "question": "hello", "answer": "Hello, how can I help you?" },		{			"question": "I need help of something",
+			"answer": "What something? Please be more specific so I can assist you."
+		},
+		{ "question": "can you help me?", "answer": "Sure, just tell me what kind of help" },
+		{ "question": "Good morning", "answer": "Hello, Good morning" },
+		{ "question": "hello good afternoon mate", "answer": "Good afternoon" },
+		{ "question": "Good day, mate", "answer": "Good day to you too! How can I assist you today?" },
+		{
+			"question": "bye",
+			"answer": "Goodbye! If you have any more questions in the future, feel free to ask. Have a great day!"
+		},
+		{ "question": "Cool", "answer": "I'm Cool" },
+		{ "question": "hi", "answer": "hello" },
+		{
+			"question": "What are the specific requirement for my chosen program which is BSIT?",
+			"answer": "Student should a graduate in Senior High School specifically in Grade12 and passed the academic requirements during the senior high school years."
+		},
+		{
+			"question": "When will be the deadline for the application and submission of requirements for freshmen?",
+			"answer": "The online application and submission of requirement should be 1 week prior to the examination or admission test dates."
+		},
+		{
+			"question": "How do I track the status of my admission application?",
+			"answer": "Before you become a qualified examinee, you have to undergo first a process which is the online application or by through walk in. You have to register first online by creating portal accounts and submit specific requirements by uploading it your accounts."
+		},
+		{
+			"question": "What are the steps for freshmen to enroll in this institution?",
+			"answer": "If the students have done taking college admission test, they need first to identify the results of the CAT. Then they qualified to  board or non-Board programs. Once they’d passed and qualified to board programs they will undergo to an interview and the students who get non-board can automatically choose all offering non-board programs."
+		},
+		{
+			"question": "How do I submit my credentials for enrolling?",
+			"answer": "Upon the enrollment, student who wish to institution must submit particular requirements such as card, form 137, birth certificate and more."
+		},
+		{
+			"question": "What are the requirements for international students transferring or enrolling to JHCSC CMSE Campus? ",
+			"answer": "For the transferees, they need to submit honorable dismissal and their transcript of records (TOR) from their previous school."
+		},
+		{
+			"question": "Does free dental check-up done annually?",
+			"answer": "Yes"
+		},
+		{
+			"question": "Is there any available free sanitary pads for girls who had emergency period?",
+			"answer": "Yes, we have free sanitary pads"
+		},
+		{
+			"question": "Male condoms are given freely, how about oral contraceptives pills?",
+			"answer": "Oral contraceptives pills are broadly prescribed."
+		},
 
-	{
-		"question": "Good day, mate",
-		"answer": "Good day to you too! How can I assist you today?"
-	},
-	{
-		"question": "bye",
-		"answer": "Goodbye! If you have any more questions in the future, feel free to ask. Have a great day!"
-	},
-	{
-		"question": "Cool",
-		"answer": "I'm Cool"
-	},
-	{
-		"question": "hi",
-		"answer": "hello"
-	},
-	{
-		"question": "secret",
-		"answer": "imo mama secret"
-	},
-	{
-		"question": "Is there any penalties if someone borrow books and return it for a very long time? If yes, what penalty is this?",
-		"answer": "Yes, we have penalty of 10 pesos per day."
-	},
-	{
-		"question": "Can we borrow those capstone books?",
-		"answer": "No"
-	},
-	{
-		"question": "How long we can borrow the books?",
-		"answer": "1 day only"
-	},
-	{
-		"question": "Do you give old books to the students? If yes, how can we ask for?",
-		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
-	},
-	{
-		"question": "What are the requirements to borrow books? And how can we get those requirements?",
-		"answer": "Please bring your library ID. This is s requirement for first year students, it is mandatory to have a library ID."
-	},
-	{
-		"question": "What if my library yellow card and ID is lost, what should I do?",
-		"answer": "You need to get a new library ID/Yellow card, but there is fee of 30 pesos."
-	},
-	{
-		"question": "Do you give old books to the students? If yes, how can we ask for?",
-		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
-	},
-	{
-		"question": "Do you give old books to the students? If yes, how can we ask for?",
-		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
-	},
-	{
-		"question": "Do you give old books to the students? If yes, how can we ask for?",
-		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
-	},
-	{
-		"question": "Do you give old books to the students? If yes, how can we ask for?",
-		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
-	},
-	{
-		"question": "What are the library rules?",
-		"answer": "Respect the rights of others. Proper conduct is expected of all library users. Courtesy, politeness, and respect should be observed at all times. Loud conversations, smoking, eating, using cellphones not in silent mode, and littering are improper. Also, respect the materials. Treat library materials with care and avoid writing on books, walls, tables, chairs, and other furniture or equipment inside and outside of the library.."
-	},
-	{
-		"question": "What if I lost a library book?",
-		"answer": "The lost book should be replaced by the same or a later edition of the original title, and a corresponding fine must be paid."
-	},
-	{
-		"question": "Can I print a copy of the book from the library?",
-		"answer": "Yes, but you are only given 30 minutes for printing or photocopying."
-	},
-	{
-		"question": "Does the library offer free printing?",
-		"answer": "No."
-	},
-	{
-		"question": "What are the graduation requirements for my program, BSIT?",
-		"answer": "You must pass all required subjects as prescribed in the curriculum, submit all necessary documents like Form 138, Form 137, PSA photocopy, original certificate of good moral character, and clear all required allegations as stated in the graduation clearance."
-	},
-	{
-		"question": "Do we have to go to the main campus to get our school records?",
-		"answer": "Only the Diploma needs the President's signature. Other records like the TOR and other certifications will be released at the JHCSC-CMSE Campus."
-	},
-	{
-		"question": "If one of my school records is missing, who’s responsible for it?",
-		"answer": "The person in charge of safekeeping the said documents is responsible."
-	},
-	{
-		"question": "What are the requirements for getting a TOR? Is there any payment? If yes, how much?",
-		"answer": "Clearance is required for obtaining the TOR, and a fee of 50.00 per page must be paid upon request."
-	},
-	{
-		"question": "What is the process for shifting to another program?",
-		"answer": "You must complete the clearance process."
-	},
-	{
-		"question": "How do I drop and add a subject?",
-		"answer": "You need to fully accomplish the adding or dropping form with complete signatures and submit it to the Office of the Registrar on the date specified in the calendar of activities."
-	},
-	{
-		"question": "How many days does it take to get my TOR after requesting?",
-		"answer": "It takes 3-5 days after submitting the clearance and request for credentials slip."
-	},
-	{
-		"question": "Is it okay to pay my miscellaneous fee when I graduate?",
-		"answer": "No miscellaneous fee, no tuition fee."
-	},
-	{
-		"question": "I have a twin sister and we both enrolled in JHCSC CMSE Campus, is it possible that we pay the miscellaneous fee as one?",
-		"answer": ""
-	},
-	{
-		"question": "Is there any payment for getting a copy of my COE?",
-		"answer": "Yes, 20.00 per request."
-	},
-	{
-		"question": "Can we get a copy of the school calendar? If yes, how?",
-		"answer": "The calendar of activities in JHCSC is posted on the bulletin board. Every student is free to read and get a copy by taking a picture using their cellphone."
-	},
-	{
-		"question": "How can I request a LOA (leave of absence)?",
-		"answer": "Fill up a LOA form and attach supporting documents required for the LOA application."
-	},
-	{
-		"question": "I entered the wrong information in the online enrollment, how can I correct it?",
-		"answer": "Visit the office for assistance with your concerns."
-	},
-	{
-		"question": "Can I request a copy of my credentials?",
-		"answer": "Please specify the document and the purpose because some documents cannot be given back to the student."
-	},
-	{
-		"question": "Does free dental check-up happen annually?",
-		"answer": "Yes."
-	},
-	{
-		"question": "Is there any available free sanitary pads for girls who had an emergency period?",
-		"answer": "Yes, we have free sanitary pads."
-	},
-	{
-		"question": "Male condoms are given freely, how about oral contraceptive pills?",
-		"answer": "Oral contraceptive pills are broadly prescribed."
-	},
-	{
-		"question": "What medical services are available?",
-		"answer": "DILI PA MA ANSWER SA NURSE SINCE WALA PA SYA NAGTUIG SA SCHOOL."
-	},
-	{
-		"question": "If there’s a day that the school nurse is on leave, who should we call in case of a health emergency?",
-		"answer": "The admins in the school."
-	},
-	{
-		"question": "Are the medicines in the clinic free?",
-		"answer": "Yes, they are free."
-	},
-	{
-		"question": "How can I schedule an appointment in the school clinic?",
-		"answer": "You don’t need an appointment for the school clinic. It is open on school days from Monday to Friday (8am-5pm) for all students to address health concerns and illnesses."
-	},
-	{
-		"question": "Does the clinic offer health insurance?",
-		"answer": "The clinic doesn’t offer health insurance."
-	},
-	{
-		"question": "Are clinic services free?",
-		"answer": "Yes, they are free."
-	},
-	{
-		"question": "Is there a free medical check-up? If yes, when and how can I set an appointment?",
-		"answer": "DILI PA MA ANSWER SA NURSE SINCE WALA PA SYA NAGTUIG SA SCHOOL."
-	},
-	{
-		"question": "Is there any penalties if someone borrows books and returns them after a very long time? If yes, what is the penalty?",
-		"answer": "Yes, there is a penalty of 10 pesos per day."
-	},
-	{
-		"question": "Can we borrow those capstone books?",
-		"answer": "No."
-	},
-	{
-		"question": "How long can we borrow the books?",
-		"answer": "1 day only."
-	},
-	{
-		"question": "Do you give old books to the students? If yes, how can we ask for them?",
-		"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL."
-	},
-	{
-		"question": "What are the requirements to borrow books? And how can we get those requirements?",
-		"answer": "Please bring your library ID. This is a requirement for first-year students, and it is mandatory to have a library ID."
-	},
-	{
-		"question": "What if my library yellow card and ID are lost, what should I do?",
-		"answer": "You need to get a new library ID/Yellow card, but there is a fee of 30 pesos."
-	}
-]
+		{
+			"question": "What are the medical services are available?",
+			"answer": "DILI PA MA ANSWER SA NURSE SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+		},
+		{
+			"question": "If there’s a day that the school nurse is in leave who to call if there is a health emergency?",
+			"answer": "The admins in the school"
+		},
+		{
+			"question": "Is the medicines in the clinic are free?",
+			"answer": "Yes, it is free."
+		},
+
+		{
+			"question": "How can I schedule an appointment in the school clinic?",
+			"answer": "You don’t need to have an appointment on our school clinic it is open on school days Monday to Friday (8am-5pm) it is open to all students to all your concerns about health and your illness."
+		},
+		{
+			"question": "Is the clinic offers health insurance?",
+			"answer": "The clinic doesn’t offer health insurance."
+		},
+		{
+			"question": "Is clinic services free?",
+			"answer": "Yes, it is free."
+		},
+		{
+			"question": "Is there free medical check-up? If yes, when and how can I set appointment?",
+			"answer": "DILI PA MA ANSWER SA NURSE SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+		},
+		{
+			"question": "What happened if the guidance dismissed me in the institution, can I still enroll in the next school year?",
+			"answer": "No"
+		},
+		{
+			"question": "Does admission accept my online enrollment even if my school clearance is not cleared?",
+			"answer": "No"
+		},
+		{
+			"question": "How many days does the admission takes to confirm my enrollment?",
+			"answer": "The students can wait to 2-5 working days"
+		},
+		{
+			"question": "Can I still enroll after having a failing grades?",
+			"answer": "No"
+		},
+		{
+			"question": "How to create account in JHCSC portal?",
+			"answer": "You will need to browse in online.jhcsc.edu.ph and you  will see create account if you didn’t have any account from the portal."
+		},
+		{
+			"question": "How can we access/know what is the result of our College Admission Exam?",
+			"answer": "If the result are ready, the results will automatically send to the email of each student."
+		},
+		{
+			"question": "How to pre-enlist in the portal?",
+			"answer": "You just have to open your portal account and pre-enlist the subject aligned to the program you have chosen."
+		},
+		{
+			"question": "What are the common mistakes students made during the application process, and how can I avoid them?",
+			"answer": "The common mistakes are bot applying for the online application and not complying the requirements."
+		},
+		{
+			"question": "What are the programs offered in JHCS CMSE Campus?",
+			"answer": "For board program we offered, BSED-English, BTVTED-FSM, BTVTED-AP and BTLED-HE, for non board programs we offered BSIT and BIT-IDT"
+		},
+		{
+			"question": "What are the requirements for international students transferring or enrolling to JHCSC CMSE Campus? ",
+			"answer": "For the transferees, they need to submit honorable dismissal and their transcript of records (TOR) from their previous school."
+		},
+		{
+			"question": "How do I submit my credentials for enrolling?",
+			"answer": "imo mama secret"
+		},
+		{
+			"question": "secret",
+			"answer": "Upon the enrollment, student who wish to institution must submit particular requirements such as card, form 137, birth certificate and more."
+		},
+		{
+			"question": "Is there any penalties if someone borrow books and return it for a very long time? If yes, what penalty is this?",
+			"answer": "Yes, we have penalty of 10 pesos per day."
+		},
+		{
+			"question": "What are the steps for freshmen to enroll in this institution?",
+			"answer": "Before you become a qualified examinee, you have to undergo first a process which is the online application or by through walk in. You have to register first online by creating portal accounts and submit specific requirements by uploading it your accounts."
+		},
+		{
+			"question": "When will be the deadline for the application and submission of requirements for freshmen?",
+			"answer": "The online application and submission of requirement should be 1 week prior to the examination or admission test dates."
+		},
+		{
+			"question": "What are the qualifications to be accepted in your scholarship services?",
+			"answer": "Once enrolled in this institution the student is automatically an applicant in any scholarship in this school."
+		},
+		{
+			"question": "What are the scholarship does this school offers?",
+			"answer": "TES & TDP, NCIP - Subanen, DWWA-DH & PCA- Parents must be a member pf PCA"
+		},
+		{
+			"question": "Why is it that scholarship is limited?",
+			"answer": "Source of fund"
+		},
+		{
+			"question": "What are the qualifications in TES?",
+			"answer": "The CHED will be one to choose who will be the TES scholar"
+		},
+		{
+			"question": "What is the purpose of these services?",
+			"answer": "To cater those family who has low source of income"
+		},
+		{
+			"question": "How do I request a leave of absence for 2 semesters?",
+			"answer": "In this situation, if you plan not to continue to study you are advice to file a LOA at the end of the semester 2 consecutive absences considered a drop out or delisted."
+		},
+		{
+			"question": "How much our allowance in TES per year?",
+			"answer": "TES- 10,000 per semester"
+		},
+		{
+			"question": "When to get our allowance in TES?",
+			"answer": "After each semester depending on budget from CHED"
+		},
+		{
+			"question": "How to get our allowance in TES?",
+			"answer": "Will be downloaded to your uATM"
+		},
+		{
+			"question": "Do you give old books to the students? If yes, how can we ask for?",
+			"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+		},
+		{
+			"question": "What are the requirements to borrow books? And how can we get those requirements?",
+			"answer": "Please bring your library ID. This is s requirement for first year students, it is mandatory to have a library ID."
+		},
+		{
+			"question": "What if my library yellow card and ID is lost, what should I do?",
+			"answer": "You need to get a new library ID/Yellow card, but there is fee of 30 pesos."
+		},
+		{
+			"question": "Do you give old books to the students? If yes, how can we ask for?",
+			"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+		},
+		{
+			"question": "Do you give old books to the students? If yes, how can we ask for?",
+			"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+		},
+		{
+			"question": "Do you give old books to the students? If yes, how can we ask for?",
+			"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+		},
+		{
+			"question": "Do you give old books to the students? If yes, how can we ask for?",
+			"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL"
+		},
+		{
+			"question": "What are the library rules?",
+			"answer": "Respect the rights of others. Proper conduct is expected of all library users. Courtesy, politeness, and respect should be observed at all times. Loud conversations, smoking, eating, using cellphones not in silent mode, and littering are improper. Also, respect the materials. Treat library materials with care and avoid writing on books, walls, tables, chairs, and other furniture or equipment inside and outside of the library.."
+		},
+		{
+			"question": "What if I lost a library book?",
+			"answer": "The lost book should be replaced by the same or a later edition of the original title, and a corresponding fine must be paid."
+		},
+		{
+			"question": "Can I print a copy of the book from the library?",
+			"answer": "Yes, but you are only given 30 minutes for printing or photocopying."
+		},
+		{
+			"question": "Does the library offer free printing?",
+			"answer": "No."
+		},
+		{
+			"question": "What are the graduation requirements for my program, BSIT?",
+			"answer": "You must pass all required subjects as prescribed in the curriculum, submit all necessary documents like Form 138, Form 137, PSA photocopy, original certificate of good moral character, and clear all required allegations as stated in the graduation clearance."
+		},
+		{
+			"question": "Do we have to go to the main campus to get our school records?",
+			"answer": "Only the Diploma needs the President's signature. Other records like the TOR and other certifications will be released at the JHCSC-CMSE Campus."
+		},
+		{
+			"question": "If one of my school records is missing, who’s responsible for it?",
+			"answer": "The person in charge of safekeeping the said documents is responsible."
+		},
+		{
+			"question": "What are the requirements for getting a TOR? Is there any payment? If yes, how much?",
+			"answer": "Clearance is required for obtaining the TOR, and a fee of 50.00 per page must be paid upon request."
+		},
+		{
+			"question": "What is the process for shifting to another program?",
+			"answer": "You must complete the clearance process."
+		},
+		{
+			"question": "How do I drop and add a subject?",
+			"answer": "You need to fully accomplish the adding or dropping form with complete signatures and submit it to the Office of the Registrar on the date specified in the calendar of activities."
+		},
+		{
+			"question": "How many days does it take to get my TOR after requesting?",
+			"answer": "It takes 3-5 days after submitting the clearance and request for credentials slip."
+		},
+		{
+			"question": "Is it okay to pay my miscellaneous fee when I graduate?",
+			"answer": "No miscellaneous fee, no tuition fee."
+		},
+		{
+			"question": "I have a twin sister and we both enrolled in JHCSC CMSE Campus, is it possible that we pay the miscellaneous fee as one?",
+			"answer": ""
+		},
+		{
+			"question": "Is there any payment for getting a copy of my COE?",
+			"answer": "Yes, 20.00 per request."
+		},
+		{
+			"question": "Can we get a copy of the school calendar? If yes, how?",
+			"answer": "The calendar of activities in JHCSC is posted on the bulletin board. Every student is free to read and get a copy by taking a picture using their cellphone."
+		},
+		{
+			"question": "How can I request a LOA (leave of absence)?",
+			"answer": "Fill up a LOA form and attach supporting documents required for the LOA application."
+		},
+		{
+			"question": "I entered the wrong information in the online enrollment, how can I correct it?",
+			"answer": "Visit the office for assistance with your concerns."
+		},
+		{
+			"question": "Can I request a copy of my credentials?",
+			"answer": "Please specify the document and the purpose because some documents cannot be given back to the student."
+		},
+		{
+			"question": "Does free dental check-up happen annually?",
+			"answer": "Yes."
+		},
+		{
+			"question": "Is there any available free sanitary pads for girls who had an emergency period?",
+			"answer": "Yes, we have free sanitary pads."
+		},
+		{
+			"question": "Male condoms are given freely, how about oral contraceptive pills?",
+			"answer": "Oral contraceptive pills are broadly prescribed."
+		},
+		{
+			"question": "What medical services are available?",
+			"answer": "DILI PA MA ANSWER SA NURSE SINCE WALA PA SYA NAGTUIG SA SCHOOL."
+		},
+		{
+			"question": "If there’s a day that the school nurse is on leave, who should we call in case of a health emergency?",
+			"answer": "The admins in the school."
+		},
+		{
+			"question": "Are the medicines in the clinic free?",
+			"answer": "Yes, they are free."
+		},
+		{
+			"question": "How can I schedule an appointment in the school clinic?",
+			"answer": "You don’t need an appointment for the school clinic. It is open on school days from Monday to Friday (8am-5pm) for all students to address health concerns and illnesses."
+		},
+		{
+			"question": "Does the clinic offer health insurance?",
+			"answer": "The clinic doesn’t offer health insurance."
+		},
+		{
+			"question": "Are clinic services free?",
+			"answer": "Yes, they are free."
+		},
+		{
+			"question": "Is there a free medical check-up? If yes, when and how can I set an appointment?",
+			"answer": "DILI PA MA ANSWER SA NURSE SINCE WALA PA SYA NAGTUIG SA SCHOOL."
+		},
+		{
+			"question": "Is there any penalties if someone borrows books and returns them after a very long time? If yes, what is the penalty?",
+			"answer": "Yes, there is a penalty of 10 pesos per day."
+		},
+		{
+			"question": "Can we borrow those capstone books?",
+			"answer": "No."
+		},
+		{
+			"question": "How long can we borrow the books?",
+			"answer": "1 day only."
+		},
+		{
+			"question": "Do you give old books to the students? If yes, how can we ask for them?",
+			"answer": "DILI PA MA ANSWER SA LIBRARIAN SINCE WALA PA SYA NAGTUIG SA SCHOOL."
+		},
+		{
+			"question": "What are the requirements to borrow books? And how can we get those requirements?",
+			"answer": "Please bring your library ID. This is a requirement for first-year students, and it is mandatory to have a library ID."
+		},
+		{
+			"question": "What if my library yellow card and ID are lost, what should I do?",
+			"answer": "You need to get a new library ID/Yellow card, but there is a fee of 30 pesos."
+		},
+		{
+			"question": "What services does the DSA office provide?",
+			"answer": "The DSA office typically offers a wide range of services to support students' academic, personal, and social well-being. This can include advising on academic issues, providing resources for mental health and wellness, organizing student activities and events, managing student conduct, and offering support for students with disabilities.  Specific services will be listed on the office's website or in a student handbook."
+		},
+		{
+			"question": "How can I get academic advising?",
+			"answer": "Academic advising is usually available through appointments scheduled in school guidance counselor Ma’am Cristy Udjaji."
+		},
+		{
+			"question": "How can I get involved in student government?",
+			"answer": "The Director of Student Affairs oversees student government, which gives students a voice in campus decisions. They can explain how to run for office, get involved in committees, and make a difference on campus."
+		},
+		{
+			"question": "What is the process for reporting a student conduct issue?",
+			"answer": "The DSA office usually handles student conduct issues.  Their handbook will outline the process for reporting violations of student code of conduct, which might involve submitting a written report, attending a meeting, or participating in a hearing."
+		},
+		{
+			"question": "What resources are available for students struggling with mental health?",
+			"answer": "The DSA office typically works closely with counseling services or mental health professionals on campus. They can provide information on available resources, such as counseling appointments, support groups, and crisis hotlines."
+		},
+		{
+			"question": "How can I request accommodations for a disability?",
+			"answer": "The DSA office usually coordinates with the disability services office. They can guide you through the process of requesting and obtaining necessary accommodations based on your documented disability."
+		},
+		{
+			"question": "What are the deadlines for submitting applications for scholarships or financial aid?",
+			"answer": "The DSA office might not directly manage scholarships and financial aid, but they can provide information on deadlines and direct you to the appropriate office or website for applications."
+		},
+		{
+			"question": "How can I get involved in campus activities and events?",
+			"answer": "The DSA office often organizes or promotes campus-wide events and activities.  Check their or social media pages for a calendar of events and opportunities to get involved."
+		},
+		{
+			"question": "What is the process for appealing a disciplinary decision?",
+			"answer": "If you disagree with a disciplinary decision, the DSA office will have an appeals process outlined in their handbook.  This usually involves submitting a written appeal within a specific timeframe."
+		},
+		{
+			"question": "How can I contact the DSA office?",
+			"answer": "The DSA will contact in the following: || -Phone Number | -Email | -Location"
+		},
+		{
+			"question": "How do I track the status of my admission application?",
+			"answer": "Before you become a qualified examinee you have to undergo: || -First Process - which is the online application or by through walk-in. | -Second - You have to register first online by creating portal accounts and submit the specific requirement by uploading it your accounts."
+		},
+		{
+			"question": "What are the steps for freshmen to enroll in this institution?",
+			"answer": "If the students have done taking college admission test, they need to: || -First - identify the results of the CAT whether they qualified to board or non-board programs | -Second - once they pass and qualified to board programs they will undergo to an interview and the students who got non-board can automatically choose all offering non-board programs."
+		},
+		{
+			"question": "How do I submit my credentials for enrolling?",
+			"answer": "-Card | -Form 137 | -Birth certificate, and more."
+		},
+		{
+			"question": "What are the requirements for international students transferring or enrolling to JHCSC CMSE Campus? ",
+			"answer": "For the transferees they need to submit: || -Honorable dismissal | -Transcript of Records from their previous school"
+		},
+		{
+			"question": "What are the programs offered in JHCS CMSE Campus?",
+			"answer": "For the board program we offer: | -BSED – English | -BTVTED – FSM | -BTVTED – AP | -BTLED – HE || For non-board program we offer: | -BSIT | -BIT - ADT"
+		},
+		{
+			"question": "What are the graduation requirements?",
+			"answer": "Passed all the required subjects as prescribed in the curriculum. || Passed all the documents like: | -form 138 | -form 137 | -PSA Photocopy | -original certificate of good moral character | and must be cleared all the required allegations as stated in the graduation clearance."
+		},
+		{
+			"question": "How can I handle academic stress and pressure?",
+			"answer": "Time Management | Use a planner or digital calendar to schedule study sessions, deadlines and breaks. And also prioritize tasks based on importance and deadlines. || Stay Organized and Positive | If you are feeling extremely overwhelmed, it’s important to talk to a mentor, counselor or therapist who can offer more personalized guidance. "
+		},
+		{
+			"question": "What types of counseling services are available?",
+			"answer": "We have few services offered: || Individual Counseling - One-on-one counseling focusing on personal growth, self-awareness, and issue resolution. || Academic Counseling - Guidance on academic decisions, goals, and challenges. It improves academic performance, choose suitable courses/majors, and develop study skills. || Career Counseling - Guidance on career exploration, development, and transition. Identify career passions, develop job search strategies, and enhance professional growth. || Mental Health Counseling - Specialized counseling addressing mental health concerns. Manage symptoms, develop coping strategies, and improve mental well-being."
+		},
+		{
+			"question": "Can I get help on improving my study habit and academic performance?",
+			"answer": "Make a structural approach to help you improve your study habits and academic performance like: || -Assess your current study habits | -Set clear and achievable goals | -Create a study plan, and | -Develop effective study techniques"
+		},
+		{
+			"question": "What are the library rules?",
+			"answer": "First, “respect the rights of others” proper conduct is expected of all library user. || Second - Courtesy, politeness and respect to others should be observed at all times. || Third - Loud conversations, smoking, eating, use of cellphones not in silent mode and littering are deemed improper inside the library. || Fourth - “respect the right of materials” treat the library materials with care. || Fifth - Writing on the books, walls, tables, chairs and other furniture and equipment inside and outside of the library."
+		},
+		{ "question": "What is the purpose of Interfaith services?", "answer": "Interfaith services aim to: || -Promote understanding and respect for different faiths | Encourage dialogue and open communication between people of different religious backgrounds | Foster a sense of community and shared values | Celebrate the richness and diversity of religious traditions" },
+		{ "question": "What should I expect during the service?", "answer": "Interfaith services can vary in format. They might include: || -Readings from different religious texts | -Prayers or reflections from representatives of different faiths | -Music or art from various religious traditions | -Opportunities for open dialogue and discussion" },
+		{ "question": "How can I get involved in interfaith activities?", "answer": "You can get involved by: || -Attending interfaith events | -Joining a student group or club related to interfaith dialogue | -Volunteering for interfaith outreach programs | -Sharing your own experiences and perspectives with others" },
+		{ "question": "What are the scholarship does this school offers?", "answer": "The school offers the following scholarship programs: || TES | TDP | NCIP – Subanen | DWWA -DH | PCA -Parents must be a member of PCA " },
+		{ "question": "ok", "answer": "ok" },
+		{ "question": "ok", "answer": "ok" },
+		{ "question": "ok", "answer": "ok" }
+	]
 }
